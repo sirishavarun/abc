@@ -1,5 +1,5 @@
 import pymysql
-mysql = pymysql.connect(
+mysql = pymysql.connector.connect(
     user='siri',
     password=1234,
     port='',
